@@ -1,0 +1,20 @@
+
+For the last assignment I decided to expand on the last assignment.
+
+My previous assignment wasn't working correctly and had quite a lot of bugs so most of this assignment I spent debugging everything to get the pokemon battles to work correctly.
+
+Bug Fixes:
+    - I fixed the number of random pokemon that a trainer spawns with.
+    - I also fixed and reworked how all the bags works and all of the items within the bag.
+    - I fixed not being able to catch pokemon so now that works
+
+
+After I fixed most of the bugs, 
+    I added a few more items as well as a money system.
+    I changed the UI for the pokemart to include buying items.
+    I also changed the UI for the pokemon center to check if your party is full hp.
+    I added a way for you to check your current pokemon party and hp by press 'p'
+    I reworked the damage a little bit.
+    I also made it to where if all your pokemon are fainted you cannot enter wild pokemon battles or Trainer battles otherwise if it will start you with your second pokemon, They will still follow you though.
+    Then I finally added a PC in the pokemon center where pokemon go if you catch it when your party's full.
+

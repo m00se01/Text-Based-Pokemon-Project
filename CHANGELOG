@@ -1,0 +1,168 @@
+Date: 09/04/22
+ - Started Project
+ - Created the initial 2D char array that will contain all the symbols for the pokemon world map.
+ - Messed around with Getting different symbols in different places.
+ - Added the printmap function.
+ 
+Date: 09/06/22
+ - Figuring out Random number generation for paths
+ - Figuring out how to grow a certain type of terrain and making sure it doesn't go out of bounds of the map.
+ - Made a few functions for terrain growth
+ - Created a map Struct
+
+Date: 09/07/22
+ - Finishing up the map generation by adding the pokemarts and pokecenters accessible from a path.
+
+Date: 09/11/22
+ - Decided to use Professor Sheaffer's solution for terrain generation for future iterations.
+
+Date: 09/12/22
+ - Created the 401 x 401 world map
+ - Some basic UI inputs
+
+Date: 09/13/22
+ - Got the Matching N, S, E, W exits to match up onto the newly generated maps
+ - Finished the Corners and Border generation cases
+ - Finished UI inputs
+
+Date: 09/14/22
+ - Had a problem with fly may have to do with the way the pointers were stored.
+ - Some Error Handling & Making sure no repeats terrain generation occurs
+ - More Bounds Checking
+
+
+Date: 09/18/22
+ - Generated PC's Spawn point at a random point on the road.
+
+Date: 09/19/22
+ - Did some testing on getting the players spawn position into the PC struct
+
+Date: 09/21/22:
+ - Tried to figure out the terrain costs
+
+Date: 09/26/22:
+ - Trying to format the distance map outputs
+
+Date: 09/27/22:
+ - Implemented Dijsktras Algorithm to include 8 directions
+
+Date: 09/28/22:
+ - Fixed an issue with the terrain cost
+ - Added the cost based on the type of NPC
+
+Date: 10/02/22:
+ - Figuring out how to store the npc's
+ 
+Date: 10/03/22:
+ - Initial Spawn of npc's on the map
+
+Date: 10/04/22:
+ - Started basic movement logic
+ - Pacers & sentry movement
+
+Date: 10/04/22:
+ - Started implementing the priority queue
+ - Made the while loop
+
+
+Date: 10/17/22:
+ - Setting up the ncurses library
+ - Fixed the printmap() to use the ncurses addch();
+
+Date: 10/18/22:
+ - Added PC movement commands
+ - Added Player Position to screen
+
+Date: 10/19/22:
+ - Added new window for entering pokemon centers and pokemarts
+ - Fixed Collision Bug
+ -
+
+Date: 10/24/22:
+ - Started figuring out the logic for walking to the exits and building new maps
+ - Added moving to new maps in the io.c file
+
+Date: 10/25/22:
+ - Starting to convert everything to c++, then try to finish the rest of the logic
+ - Trying to Change the Character structs into classes
+
+Date: 10/26/22:
+ - Trying to convert everything in c++ code
+ - Made character class and subclasses for the npc's and pc
+ - Made sure to cast everything that needed to be casted
+ - Couldn't finish converting everything.s
+
+Date: 10/31/22:
+ - started setting up the initial fstream
+ - setup the input parameters
+ - started parsing through files
+
+Date: 11/01/22:
+ - Created the data structs
+ - Added global vectors inside world;
+ - continued working on the parsing
+ - added the extensions
+
+Date: 11/02/22:
+ - Error handling
+ - Implmented the default filepaths
+ - Stored all the parsed information inside the structs and then those structs inside the vectors
+ - Formatted the output
+
+Date: 11/08/22
+ - Created a pokemon class to hold all of the stats we need to display
+ - Calculated the pokemon base stats + IV's
+
+ Date: 11/08/22
+ - Started the UI output
+ - Trying to fix some bugs with the move storage
+
+Date: 11/10/22
+ - Implmenting the percentage chance of encountering a pokemon when walking in tall grass
+ - Fixing the UI output
+
+
+Date: 11/15/22
+ - Started Implementing the starting choose menu
+ - Added Pokemon party to the NPC & PC
+
+Date: 11/16/22
+ - Worked on the IO layout for the pokemon battles
+
+Date: 11/18/22
+ - Finished Choosing Starter Pokemon and adding them to PC's Party
+ - Added Pokemon Center Healing all pokemon to full
+ - Started Usinig Items
+
+
+Date 11/26/22
+ - Bug With Trainer Battles & Wild Pokemon Battles causing game to crash
+
+Date 11/28/22
+ - Pokemart restores all Items
+ - Potions heal the first pokemon in your party
+ - Open Bag in different kinds of battles
+ - Tried fixing pokemon catching bug
+ 
+  
+Date 12/3/22
+ - Started fixing bugs
+ - getting trainers to have more than 1 pokemon
+
+Date 12/4/22
+ - Fixed some IO bugs
+ - Added money
+
+Date 12/5/22
+ - Added a way to display your pokemon party on screen
+ - Fixed bag issue
+
+Date 12/6/22
+ - Added Pokemart system to buy items
+ - Reworked damage system
+ - Added a way to avoid trainers & other poke battles if all your pokemon are fainted
+
+Date 12/7/22
+ - Added Pokecenter UI
+ - Reworked how the bag works
+ - ADD PC in Pokecenter
